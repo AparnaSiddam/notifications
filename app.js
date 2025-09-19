@@ -4,4 +4,4 @@ const bell = document.querySelector('.bellContainer');
 setInterval(function(){
     i++;
    bell.setAttribute('data-content', i);
-}, 1000);
+}, 2000);
